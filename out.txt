@@ -1,0 +1,1833 @@
+1:#pragma source on
+2:#pragma token on
+3:/* 23.4
+4:1234
+5:23@23
+6:
+#id:hi
+#id:hi
+#op:=
+#id:qq
+7:i can't see you */ hi hi = qq
+8:// 234 sdf  ewe int double void
+#char:''
+9:''
+#string:
+10:""
+#string: \
+#string: av c
+#string:sdf 
+11:" \" " av c" "sdf "
+12:#pragma token on
+#double:00000.000000
+#double:02.
+#id:aa
+#punc:}
+#id:bb
+17:#pragma source on
+#id:aa_bb_sd__
+#punc:{
+#id:sdfsdf
+#op:+
+#id:dfsdfsd
+#op:+
+#id:dsf
+#punc:}
+18:aa_bb_sd__{sdfsdf+dfsdfsd+dsf}
+#op:*
+#punc:(
+#punc:(
+#id:apple
+#punc:)
+#punc:)
+#punc:)
+19:*((apple)))
+#double:12.34
+20:12.34
+#sci:123.34e234
+21:123.34e234
+#op:&
+22:&
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:0
+#punc:;
+#id:i
+#op:>
+#id:oo
+#punc:;
+#id:i
+#op:+
+#op:=
+Error at line 23:2oo){
+#id:cout
+#op:<
+#op:<
+#id:i
+#op:*
+#id:pow
+#punc:(
+#id:oo
+#punc:,
+#id:oo
+#punc:)
+#punc:;
+24:    cout << i*pow(oo, oo);
+#punc:}
+25:}
+#double:.00
+26:.00
+#double:.10
+27:.10
+#sci:23.23e324
+#op:/
+#integer:34
+#id:good
+28:23.23e324/34     good
+#sci:23.23e324
+#op:++
+#integer:34
+#id:good
+29:23.23e324++34   good
+#sci:23.23e324
+#op:--
+#integer:34
+#id:good
+30:23.23e324--34   good
+#sci:23.23e324
+#op:&
+#integer:34
+#id:good
+31:23.23e324&34    good
+#sci:23.23e324
+#op:&
+#integer:34
+#id:good
+32:23.23e324&34    good
+#sci:23.23e324
+#punc:[
+#integer:34
+#id:good
+33:23.23e324[34    good
+#id:abc
+#op:+
+#punc:.
+#id:sdf
+#id:good
+34:abc+.sdf        good
+#id:abc
+#op:+
+#punc:.
+#id:sdf
+#id:good
+35:abc+.sdf        good
+#id:abc12
+#double:.34
+#id:good
+#id:id
+#punc::
+#id:abc12
+#key:double
+#double:.34
+36:abc12.34        good    id:abc12 double.34
+#double:123.
+#punc:.
+#id:good
+37:123..           good
+#id:abcc
+#op:*
+#op:+
+#id:q0_0q
+#op:+
+#op:*
+#id:abcc
+#id:good
+38:abcc*+q0_0q+*abcc      good
+#punc::
+#punc:)
+#id:good
+39::) good
+#punc::
+#punc:(
+#id:good
+40::( good
+#op:--
+#punc:(
+#id:GGqaq
+#punc:)
+#op:--
+#id:good
+41:--(GGqaq)-- good
+Error at line 42:2.e++324                not sure
+#sci:234.3324e-324
+#punc:}
+#sci:3.234e-009
+#id:good
+43:234.3324e-324}3.234e-009 good
+#sci:234.3324e-324
+#punc::
+#sci:3.234e-009
+#id:good
+44:234.3324e-324:3.234e-009 good
+#sci:234.3324e-324
+#punc:;
+#sci:3.234e-009
+#id:good
+45:234.3324e-324;3.234e-009 good
+#sci:234.3324e-324
+#punc:,
+#sci:3.234e-009
+#id:good
+46:234.3324e-324,3.234e-009 good
+#sci:234.3324e-324
+#punc:[
+#sci:3.234e-009
+#id:good
+47:234.3324e-324[3.234e-009 good
+#sci:234.3324e-324
+#punc:]
+#sci:3.234e-009
+#id:good
+48:234.3324e-324]3.234e-009 good
+#sci:234.3324e-324
+#punc:(
+#sci:3.234e-009
+#id:good
+49:234.3324e-324(3.234e-009 good
+#sci:234.3324e-324
+#punc:)
+#sci:3.234e-009
+#id:good
+50:234.3324e-324)3.234e-009 good
+#sci:234.3324e-324
+#punc:{
+#sci:3.234e-009
+#id:good
+51:234.3324e-324{3.234e-009 good
+#sci:234.3324e-324
+#punc:}
+#sci:3.234e-009
+#id:good
+52:234.3324e-324}3.234e-009 good
+#sci:234.3324e-324
+#op:+
+#sci:3.234e-009
+#id:good
+53:234.3324e-324+3.234e-009 good
+#sci:234.3324e-324
+#op:-
+#sci:3.234e-009
+#id:good
+54:234.3324e-324-3.234e-009 good
+#sci:234.3324e-324
+#op:*
+#sci:3.234e-009
+#id:good
+55:234.3324e-324*3.234e-009 good
+#sci:234.3324e-324
+#op:/
+#sci:3.234e-009
+#id:good
+56:234.3324e-324/3.234e-009 good
+#sci:234.3324e-324
+#op:%
+#sci:3.234e-009
+#id:good
+57:234.3324e-324%3.234e-009 good
+#sci:234.3324e-324
+#op:++
+#sci:3.234e-009
+#id:good
+58:234.3324e-324++3.234e-009 good
+#sci:234.3324e-324
+#op:--
+#sci:3.234e-009
+#id:good
+59:234.3324e-324--3.234e-009 good
+#sci:234.3324e-324
+#op:<
+#sci:3.234e-009
+#id:good
+60:234.3324e-324<3.234e-009 good
+#sci:234.3324e-324
+#op:<=
+#sci:3.234e-009
+#id:good
+61:234.3324e-324<=3.234e-009 good
+#sci:234.3324e-324
+#op:>
+#sci:3.234e-009
+#id:good
+62:234.3324e-324>3.234e-009 good
+#sci:234.3324e-324
+#op:>=
+#sci:3.234e-009
+#id:good
+63:234.3324e-324>=3.234e-009 good
+#sci:234.3324e-324
+#op:==
+#sci:3.234e-009
+#id:good
+64:234.3324e-324==3.234e-009 good
+#sci:234.3324e-324
+#op:!=
+#sci:3.234e-009
+#id:good
+65:234.3324e-324!=3.234e-009 good
+#sci:234.3324e-324
+#op:=
+#sci:3.234e-009
+#id:good
+66:234.3324e-324=3.234e-009 good
+#sci:234.3324e-324
+#op:&&
+#sci:3.234e-009
+#id:good
+67:234.3324e-324&&3.234e-009 good
+#sci:234.3324e-324
+#op:&
+#sci:3.234e-009
+#id:good
+68:234.3324e-324&3.234e-009 good
+#sci:234.3324e-324
+#op:||
+#sci:3.234e-009
+#id:good
+69:234.3324e-324||3.234e-009 good
+#sci:234.3324e-324
+#op:!
+#sci:3.234e-009
+#id:good
+70:234.3324e-324!3.234e-009 good
+#sci:234.3324e-324
+#op:&
+#sci:3.234e-009
+#id:good
+71:234.3324e-324&3.234e-009 good
+#sci:234.3324e-324
+Error at line 72:|3.234e-009 not sure
+#sci:234.3324e-324
+Error at line 73:^3.234e-009 not sure
+#sci:234.3324e-324
+Error at line 74:?3.234e-009 not sure
+#sci:234.3324e-324
+Error at line 75:@3.234e-009 not sure Error 234.3324e-324@3.234e-009 or @3.234e-009
+#sci:234.3324e-324
+Error at line 76:~3.234e-009 not sure Error 234.3324e-324@3.234e-009
+#id:se3
+#double:.343
+77:se3.343
+#sci:2.e343
+#id:not
+#id:sure
+78:2.e343          not sure
+Error at line 79:"asdb           error
+#integer:123234
+Error at line 80:@123      error int: 123213 , Error@123
+Error at line 81:45ab2           error
+Error at line 82:10.56.23        error
+Error at line 83:12.3E+asb2      error
+Error at line 84:“abcdefg        error
+Error at line 85:@error          error
+Error at line 86:#prag           error
+Error at line 87:abc@abc12       error  Error abc@abc12
+#sci:23.23E+333
+Error at line 88:@     error
+Error at line 89:23.23E+@        error
+Error at line 90:23.E@           error
+Error at line 91:.23.            error
+Error at line 92:23.23.34.345.   error
+Error at line 93:123..234        error
+#sci:23.23e324
+Error at line 94:#34    error
+#sci:23.23e324
+#double:.34
+#id:error
+#op:-
+#op:>
+#id:good
+95:23.23e324.34    error -> good
+#id:abc
+Error at line 96:#sdf         error
+Error at line 97:1.12.1.1        error
+#sci:123.E+2
+#id:abc
+#id:good
+98:123.E+2abc      good
+#id:abc
+#punc:{
+#id:abc
+#id:good
+99:abc{abc         good
+Error at line 100:abc@abc         error Error abc@abc
+#integer:234
+Error at line 101:#3333        error Error #3333
+#sci:234.e34324
+Error at line 102:#3333 not sure Error #3333
+#char:'@'
+103:'@'
+#char:'\n'
+104:'\n'
+#char:'\t'
+105:'\t'
+#char:' '
+106:' '
+Error at line 107:'23423423'
+Error at line 108:"sdfsd"sdfs"
+#string:abc
+#string:dfef
+109:"abc" "dfef"
+#string:avc\
+110:"avc\"
+#key:struct
+#id:Node
+#punc:{
+111:struct Node{
+#id:Node
+#op:*
+#id:left
+#punc:,
+#op:*
+#id:right
+#punc:;
+112:    Node* left, *right;
+#key:int
+#id:val
+#punc:;
+113:    int val;
+#id:Node
+#punc:(
+#key:int
+#id:_val
+#punc:)
+#punc::
+#id:left
+#punc:(
+#id:NULL
+#punc:)
+#punc:,
+#id:right
+#punc:(
+#id:NULL
+#punc:)
+#punc:,
+#id:val
+#punc:(
+#id:v
+#punc:)
+#punc:{
+#punc:}
+114:    Node(int _val):left(NULL), right(NULL), val(v){}
+115:
+#id:static
+#id:Node
+#op:*
+#id:build
+#punc:(
+#key:int
+#id:l
+#punc:,
+#key:int
+#id:r
+#punc:)
+#punc:{
+116:    static Node* build(int l, int r){
+#key:if
+#punc:(
+#id:l
+#op:==
+#id:r
+#punc:)
+#key:return
+#id:new
+#id:Node
+#punc:(
+#id:d
+#punc:[
+#id:id
+#punc:]
+#punc:)
+#punc:;
+117:        if(l==r) return new Node(d[id]);
+#key:else
+#punc:{
+118:        else{
+#key:int
+#id:mid
+#op:=
+#punc:(
+#id:l
+#op:+
+#id:r
+#punc:)
+#punc:;
+119:            int mid = (l+r);
+#id:Node
+#op:*
+#id:l
+#op:=
+#id:new
+#id:Node
+#punc:;
+120:            Node* l = new Node;
+#id:node
+#op:-
+#op:>
+#id:l
+#op:=
+#id:build
+#punc:(
+#id:l
+#punc:,
+#id:mid
+#punc:)
+#punc:;
+121:            node->l = build(l, mid);
+#id:node
+#op:-
+#op:>
+#id:r
+#op:=
+#id:build
+#punc:(
+#id:mid
+#op:+
+#integer:1
+#punc:,
+#id:r
+#punc:)
+#punc:;
+122:            node->r = build(mid+1, r);
+#punc:}
+123:        }
+#punc:}
+124:    }
+#punc:}
+#punc:;
+125:};
+#id:using
+#id:namespace
+#id:std
+#punc:;
+126:using namespace std;
+127:
+#key:const
+#key:double
+#id:INF
+#op:=
+#id:DBL_MAX
+#punc:;
+128:const double INF = DBL_MAX;
+#key:const
+#key:double
+#id:eps
+#op:=
+#sci:1e-10
+#punc:;
+129:const double eps = 1e-10;
+#key:const
+#key:int
+#id:maxn
+#op:=
+#integer:100
+#op:+
+#integer:10
+#punc:;
+130:const int maxn = 100+10;
+#id:template
+#op:<
+#id:class
+#id:T
+#op:>
+131:template<class T>
+#key:struct
+#id:KM
+132:struct KM
+#punc:{
+133:{
+#id:T
+#id:G
+#punc:[
+#id:maxn
+#punc:]
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+134:    T G[maxn][maxn];
+#id:T
+#id:lx
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:ly
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:y_slack
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+135:    T lx[maxn], ly[maxn], y_slack[maxn];
+#key:int
+#id:x_match
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:y_match
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+136:    int x_match[maxn], y_match[maxn];
+#key:int
+#id:px
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:py
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+137:    int px[maxn], py[maxn];  // keep augmenting path
+#key:int
+#id:y_par
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+138:    int y_par[maxn]; // the x making the lowest slack to y
+#key:int
+#id:n
+#punc:;
+139:    int n;
+140:
+#key:void
+#id:toggle
+#punc:(
+#key:int
+#id:y
+#punc:)
+#punc:{
+141:    void toggle(int y){
+#id:x_match
+#punc:[
+#id:py
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#op:=
+#id:y
+#punc:;
+142:        x_match[py[y]] = y;
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#op:=
+#id:py
+#punc:[
+#id:y
+#punc:]
+#punc:;
+143:        y_match[y] = py[y];
+#key:if
+#punc:(
+#id:px
+#punc:[
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#op:!=
+#op:-
+#integer:2
+#punc:)
+#id:toggle
+#punc:(
+#id:px
+#punc:[
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#punc:)
+#punc:;
+144:        if(px[y_match[y]]!=-2) toggle(px[y_match[y]]);
+#punc:}
+145:    }
+146:
+147:    /* n = |L| = |R|, id of nodes start with 1*/
+#key:int
+#id:init
+#punc:(
+#key:int
+#id:_n
+#punc:)
+#punc:{
+148:    int init(int _n){
+#id:n
+#op:=
+#id:_n
+#punc:;
+149:        n = _n;
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:0
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#punc:{
+150:        for(int i=0; i<=n; i++){
+#key:for
+#punc:(
+#key:int
+#id:j
+#op:=
+#integer:0
+#punc:;
+#id:j
+#op:<=
+#id:n
+#punc:;
+#id:j
+#op:++
+#punc:)
+151:            for(int j=0; j<=n; j++)
+#id:G
+#punc:[
+#id:i
+#punc:]
+#punc:[
+#id:j
+#punc:]
+#op:=
+#integer:0
+#punc:;
+152:                G[i][j] = 0;
+#punc:}
+153:        }
+#punc:}
+154:    }
+155:
+#key:int
+#id:add_edge
+#punc:(
+#key:int
+#id:a
+#punc:,
+#key:int
+#id:b
+#punc:,
+#id:T
+#id:c
+#punc:)
+#punc:{
+#id:G
+#punc:[
+#id:a
+#punc:]
+#punc:[
+#id:b
+#punc:]
+#op:=
+#id:c
+#punc:;
+#punc:}
+156:    int add_edge(int a, int b, T c){ G[a][b] = c; }
+157:
+#key:int
+#id:dfs
+#punc:(
+#key:int
+#id:x
+#punc:)
+#punc:{
+158:    int dfs(int x){
+#key:for
+#punc:(
+#key:int
+#id:y
+#op:=
+#integer:1
+#punc:;
+#id:y
+#op:<=
+#id:n
+#punc:;
+#id:y
+#op:++
+#punc:)
+#punc:{
+159:        for(int y=1; y<=n; y++){
+#key:if
+#punc:(
+#id:py
+#punc:[
+#id:y
+#punc:]
+#punc:)
+#key:continue
+#punc:;
+160:            if(py[y]) continue;
+#id:T
+#id:slack
+#op:=
+#id:lx
+#punc:[
+#id:x
+#punc:]
+#op:+
+#id:ly
+#punc:[
+#id:y
+#punc:]
+#op:-
+#id:G
+#punc:[
+#id:x
+#punc:]
+#punc:[
+#id:y
+#punc:]
+#punc:;
+161:            T slack = lx[x] + ly[y] - G[x][y];
+#key:if
+#punc:(
+#id:fabs
+#punc:(
+#id:slack
+#punc:)
+#op:<
+#id:eps
+#punc:)
+#punc:{
+162:            if(fabs(slack) < eps){
+#id:py
+#punc:[
+#id:y
+#punc:]
+#op:=
+#id:x
+#punc:;
+163:                py[y] = x;
+#key:if
+#punc:(
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#op:==
+#integer:0
+#punc:)
+#punc:{
+164:                if(y_match[y]==0){
+#id:toggle
+#punc:(
+#id:y
+#punc:)
+#punc:;
+165:                    toggle(y);
+#key:return
+#key:true
+#punc:;
+166:                    return true;
+#punc:}
+167:                }
+#key:else
+#punc:{
+168:                else{
+#key:if
+#punc:(
+#id:px
+#punc:[
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#punc:)
+#key:continue
+#punc:;
+169:                    if(px[y_match[y]]) continue;
+#id:px
+#punc:[
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#op:=
+#id:y
+#punc:;
+170:                    px[ y_match[y] ] = y;
+#key:if
+#punc:(
+#id:dfs
+#punc:(
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:)
+#punc:)
+#key:return
+#integer:1
+#punc:;
+171:                    if(dfs(y_match[y])) return 1;
+#punc:}
+172:                }
+#punc:}
+173:            }
+#key:else
+#key:if
+#punc:(
+#id:y_slack
+#punc:[
+#id:y
+#punc:]
+#op:>
+#id:slack
+#punc:)
+#punc:{
+174:            else if(y_slack[y] > slack){
+#id:y_slack
+#punc:[
+#id:y
+#punc:]
+#op:=
+#id:slack
+#punc:;
+175:                y_slack[y] = slack;
+#id:y_par
+#punc:[
+#id:y
+#punc:]
+#op:=
+#id:x
+#punc:;
+176:                y_par[y] = x;
+#punc:}
+177:            }
+#punc:}
+178:        }
+#key:return
+#key:false
+#punc:;
+179:        return false;
+#punc:}
+180:    }
+181:
+182:    /* update lx, ly with x'y_slack */
+#key:void
+#id:update
+#punc:(
+#id:vector
+#op:<
+#key:int
+#op:>
+#op:&
+#id:Y
+#punc:)
+#punc:{
+183:    void update(vector<int>& Y){
+#id:Y
+#punc:.
+#id:clear
+#punc:(
+#punc:)
+#punc:;
+184:        Y.clear();
+#id:T
+#id:d
+#op:=
+#id:INF
+#punc:;
+185:        T d = INF;
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#key:if
+#punc:(
+#op:!
+#id:py
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#id:d
+#op:=
+#id:min
+#punc:(
+#id:d
+#punc:,
+#id:y_slack
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#punc:;
+186:        for(int i=1; i<=n; i++) if(!py[i]) d = min(d, y_slack[i]);
+187:
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#punc:{
+188:        for(int i=1; i<=n; i++){
+#key:if
+#punc:(
+#id:px
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#id:lx
+#punc:[
+#id:i
+#punc:]
+#op:-
+#op:=
+#id:d
+#punc:;
+189:            if(px[i]) lx[i] -= d;
+#key:if
+#punc:(
+#id:py
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#id:ly
+#punc:[
+#id:i
+#punc:]
+#op:+
+#op:=
+#id:d
+#punc:;
+190:            if(py[i]) ly[i] += d;
+#key:else
+#punc:{
+191:            else{
+#id:y_slack
+#punc:[
+#id:i
+#punc:]
+#op:-
+#op:=
+#id:d
+#punc:;
+192:                y_slack[i] -= d;
+#key:if
+#punc:(
+#id:y_slack
+#punc:[
+#id:i
+#punc:]
+#op:==
+#integer:0
+#punc:)
+#id:Y
+#punc:.
+#id:push_back
+#punc:(
+#id:i
+#punc:)
+#punc:;
+193:                if(y_slack[i]==0) Y.push_back(i);
+#punc:}
+194:            }
+#punc:}
+195:        }
+#punc:}
+196:    }
+197:
+198:    /* You have to assert G has a perfect matching. */
+#id:T
+#id:km
+#punc:(
+#punc:)
+#punc:{
+199:    T km(){
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:0
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#id:x_match
+#punc:[
+#id:i
+#punc:]
+#op:=
+#id:y_match
+#punc:[
+#id:i
+#punc:]
+#op:=
+#integer:0
+#punc:;
+200:        for(int i=0; i<=n; i++) x_match[i] = y_match[i] = 0;
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#punc:{
+201:        for(int i=1; i<=n; i++){
+#id:lx
+#punc:[
+#id:i
+#punc:]
+#op:=
+#id:G
+#punc:[
+#id:i
+#punc:]
+#punc:[
+#integer:1
+#punc:]
+#punc:,
+#id:ly
+#punc:[
+#id:i
+#punc:]
+#op:=
+#integer:0
+#punc:;
+202:            lx[i] = G[i][1], ly[i] = 0;
+#key:for
+#punc:(
+#key:int
+#id:j
+#op:=
+#integer:1
+#punc:;
+#id:j
+#op:<=
+#id:n
+#punc:;
+#id:j
+#op:++
+#punc:)
+203:            for(int j=1; j<=n; j++)
+#id:lx
+#punc:[
+#id:i
+#punc:]
+#op:=
+#id:max
+#punc:(
+#id:lx
+#punc:[
+#id:i
+#punc:]
+#punc:,
+#id:G
+#punc:[
+#id:i
+#punc:]
+#punc:[
+#id:j
+#punc:]
+#punc:)
+#punc:;
+204:                lx[i] = max(lx[i], G[i][j]);
+#punc:}
+205:        }
+206:
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#punc:{
+207:        for(int i=1; i<=n; i++){
+#key:for
+#punc:(
+#key:int
+#id:j
+#op:=
+#integer:0
+#punc:;
+#id:j
+#op:<=
+#id:n
+#punc:;
+#id:j
+#op:++
+#punc:)
+#id:y_slack
+#punc:[
+#id:j
+#punc:]
+#op:=
+#id:INF
+#punc:;
+208:            for(int j=0; j<=n; j++) y_slack[j] = INF;
+#key:for
+#punc:(
+#key:int
+#id:j
+#op:=
+#integer:0
+#punc:;
+#id:j
+#op:<=
+#id:n
+#punc:;
+#id:j
+#op:++
+#punc:)
+#id:px
+#punc:[
+#id:j
+#punc:]
+#op:=
+#id:py
+#punc:[
+#id:j
+#punc:]
+#op:=
+#integer:0
+#punc:;
+209:            for(int j=0; j<=n; j++) px[j] = py[j] = 0;
+#id:px
+#punc:[
+#id:i
+#punc:]
+#op:=
+#op:-
+#integer:2
+#punc:;
+210:            px[i] = -2;
+#key:if
+#punc:(
+#id:dfs
+#punc:(
+#id:i
+#punc:)
+#punc:)
+#key:continue
+#punc:;
+211:            if(dfs(i)) continue;
+212:            // update();
+213:
+214:            // adjust labeling until finding an augmenting path
+#key:bool
+#id:find
+#op:=
+#key:false
+#punc:;
+215:            bool find = false;
+#key:while
+#punc:(
+#op:!
+#id:find
+#punc:)
+#punc:{
+216:            while(!find){
+#id:vector
+#op:<
+#key:int
+#op:>
+#id:Y
+#punc:;
+217:                vector<int> Y;
+#id:update
+#punc:(
+#id:Y
+#punc:)
+#punc:;
+218:                update(Y);
+#key:for
+#punc:(
+#id:auto
+#id:y
+#punc::
+#id:Y
+#punc:)
+#punc:{
+219:                for(auto y:Y){
+#key:if
+#punc:(
+#id:find
+#punc:)
+#key:break
+#punc:;
+220:                    if(find) break;
+221:
+#id:py
+#punc:[
+#id:y
+#punc:]
+#op:=
+#id:y_par
+#punc:[
+#id:y
+#punc:]
+#punc:;
+222:                    py[y] = y_par[y];
+#key:if
+#punc:(
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#op:==
+#integer:0
+#punc:)
+#punc:{
+223:                    if(y_match[y]==0){
+#id:toggle
+#punc:(
+#id:y
+#punc:)
+#punc:;
+224:                        toggle(y);
+#id:find
+#op:=
+#key:true
+#punc:;
+225:                        find = true;
+#punc:}
+226:                    }
+#key:else
+#punc:{
+227:                    else{
+#id:px
+#punc:[
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:]
+#op:=
+#id:y
+#punc:;
+228:                        px[ y_match[y] ] = y;
+#key:if
+#punc:(
+#id:dfs
+#punc:(
+#id:y_match
+#punc:[
+#id:y
+#punc:]
+#punc:)
+#punc:)
+#id:find
+#op:=
+#key:true
+#punc:;
+229:                        if(dfs(y_match[y])) find = true;
+#punc:}
+230:                    }
+#punc:}
+231:                }
+#punc:}
+232:            }
+#punc:}
+233:        }
+234:
+#id:T
+#id:ans
+#op:=
+#integer:0
+#punc:;
+235:        T ans = 0;
+#key:for
+#punc:(
+#key:int
+#id:x
+#op:=
+#integer:1
+#punc:;
+#id:x
+#op:<=
+#id:n
+#punc:;
+#id:x
+#op:++
+#punc:)
+#id:ans
+#op:+
+#op:=
+#id:G
+#punc:[
+#id:x
+#punc:]
+#punc:[
+#id:x_match
+#punc:[
+#id:x
+#punc:]
+#punc:]
+#punc:;
+236:        for(int x=1; x<=n; x++) ans += G[x][x_match[x]];
+#key:return
+#id:ans
+#punc:;
+237:        return ans;
+#punc:}
+238:    }
+239:
+#key:void
+#id:dump
+#punc:(
+#id:vector
+#op:<
+#id:pair
+#op:<
+#key:int
+#punc:,
+#key:int
+#op:>
+#op:>
+#op:&
+#id:ans
+#punc:)
+#punc:{
+240:    void dump(vector<pair<int,int>>& ans){
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#key:if
+#punc:(
+#id:G
+#punc:[
+#id:i
+#punc:]
+#punc:[
+#id:x_match
+#punc:[
+#id:i
+#punc:]
+#punc:]
+#op:!=
+#integer:0
+#punc:)
+#punc:{
+241:        for(int i=1; i<=n; i++) if(G[i][x_match[i]]!=0){
+#id:ans
+#punc:.
+#id:push_back
+#punc:(
+#punc:{
+#id:i
+#punc:,
+#id:x_match
+#punc:[
+#id:i
+#punc:]
+#punc:}
+#punc:)
+#punc:;
+242:            ans.push_back({i, x_match[i]});
+#punc:}
+243:        }
+#punc:}
+244:    }
+#punc:}
+#punc:;
+245:};
+#id:KM
+#op:<
+#key:double
+#op:>
+#id:km
+#punc:;
+246:KM<double> km;
+#key:double
+#id:dx
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:dy
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+247:double dx[maxn], dy[maxn];
+#key:double
+#id:tx
+#punc:[
+#id:maxn
+#punc:]
+#punc:,
+#id:ty
+#punc:[
+#id:maxn
+#punc:]
+#punc:;
+248:double tx[maxn], ty[maxn];
+#key:double
+#id:cal
+#punc:(
+#key:double
+#id:x
+#punc:,
+#key:double
+#id:y
+#punc:)
+#punc:{
+#key:return
+#id:sqrt
+#punc:(
+#id:x
+#op:*
+#id:x
+#op:+
+#id:y
+#op:*
+#id:y
+#punc:)
+#punc:;
+#punc:}
+249:double cal(double x, double y){ return sqrt(x*x+y*y); }
+#key:int
+#id:main
+#punc:(
+#punc:)
+250:int main()
+#punc:{
+251:{
+#key:int
+#id:n
+#punc:,
+#id:first
+#op:=
+#key:true
+#punc:;
+252:    int n, first = true;
+#key:while
+#punc:(
+#key:scanf
+#punc:(
+#string:%d
+#punc:,
+#op:&
+#id:n
+#punc:)
+#op:==
+#integer:1
+#punc:)
+#punc:{
+253:    while(scanf("%d",&n)==1){
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#key:scanf
+#punc:(
+#string:%lf%lf
+#punc:,
+#op:&
+#id:dx
+#punc:[
+#id:i
+#punc:]
+#punc:,
+#op:&
+#id:dy
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#punc:;
+254:        for(int i=1; i<=n; i++) scanf("%lf%lf", &dx[i], &dy[i]);
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#key:scanf
+#punc:(
+#string:%lf%lf
+#punc:,
+#op:&
+#id:tx
+#punc:[
+#id:i
+#punc:]
+#punc:,
+#op:&
+#id:ty
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#punc:;
+255:        for(int i=1; i<=n; i++) scanf("%lf%lf", &tx[i], &ty[i]);
+256:
+#id:km
+#punc:.
+#id:init
+#punc:(
+#id:n
+#punc:)
+#punc:;
+257:        km.init(n);
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#punc:{
+258:        for(int i=1; i<=n; i++){
+#key:for
+#punc:(
+#key:int
+#id:j
+#op:=
+#integer:1
+#punc:;
+#id:j
+#op:<=
+#id:n
+#punc:;
+#id:j
+#op:++
+#punc:)
+#punc:{
+259:            for(int j=1; j<=n; j++){
+#key:double
+#id:tmp
+#op:=
+#id:cal
+#punc:(
+#punc:(
+#id:dx
+#punc:[
+#id:i
+#punc:]
+#op:-
+#id:tx
+#punc:[
+#id:j
+#punc:]
+#punc:)
+#punc:,
+#punc:(
+#id:dy
+#punc:[
+#id:i
+#punc:]
+#op:-
+#id:ty
+#punc:[
+#id:j
+#punc:]
+#punc:)
+#punc:)
+#punc:;
+260:                double tmp = cal((dx[i]-tx[j]), (dy[i]-ty[j]));
+#id:km
+#punc:.
+#id:add_edge
+#punc:(
+#id:i
+#punc:,
+#id:j
+#punc:,
+#op:-
+#id:tmp
+#punc:)
+#punc:;
+261:                km.add_edge(i, j, -tmp);
+#punc:}
+262:            }
+#punc:}
+263:        }
+#key:if
+#punc:(
+#op:!
+#id:first
+#punc:)
+#key:puts
+#punc:(
+#string:
+#punc:)
+#punc:;
+264:        if(!first) puts("");
+#key:else
+#id:first
+#op:=
+#key:false
+#punc:;
+265:        else first = false;
+#id:km
+#punc:.
+#id:km
+#punc:(
+#punc:)
+#punc:;
+266:        km.km();
+#key:for
+#punc:(
+#key:int
+#id:i
+#op:=
+#integer:1
+#punc:;
+#id:i
+#op:<=
+#id:n
+#punc:;
+#id:i
+#op:++
+#punc:)
+#key:printf
+#punc:(
+#string:%d\n
+#punc:,
+#id:km
+#punc:.
+#id:x_match
+#punc:[
+#id:i
+#punc:]
+#punc:)
+#punc:;
+267:        for(int i=1; i<=n; i++) printf("%d\n",km.x_match[i]);
+#punc:}
+268:    }
+#key:return
+#integer:0
+#punc:;
+269:    return 0;
+#punc:}
+270:}
+Error at line 271:45a2
+#sci:23.34E+34
+272:23.34E+34
+#sci:23.34E-34
+273:23.34E-34
+#sci:23.34e-34
+274:23.34e-34
+#sci:23.34e+34
+275:23.34e+34
+#sci:23.34e34
+276:23.34e34
+#sci:23.34E34
+277:23.34E34
+#sci:23.34E23
+#sci:.4e-34
+278:23.34E23.4e-34
+#sci:23.34E234
+#id:e
+#op:-
+#integer:34
+279:23.34E234e-34
+Error at line 280:234.2342.34E34
+#sci:234.43E234
+#double:.234
+281:234.43E234.234
