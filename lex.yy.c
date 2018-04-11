@@ -1363,7 +1363,7 @@ case 44:
 /* rule 44 can match eol */
 YY_RULE_SETUP
 #line 147 "scanner.l"
-{ print_error(); BEGIN 0; }
+{ print_error(); exit(1); BEGIN 0; }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP

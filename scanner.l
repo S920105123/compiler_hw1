@@ -144,7 +144,7 @@ getc|getchar|gets|putc|putchar|puts|ungetc|perror { record(yytext); print(KEYWOR
 . { error(); record(yytext); BEGIN ERROR; }
 <PRAGMA>. { error(); err_pos--; record(yytext); BEGIN ERROR; }
 
-<ERROR>\n { print_error(); BEGIN 0; }
+<ERROR>\n { print_error(); exit(1); BEGIN 0; }
 <ERROR>. { record(yytext); }
 
 %%
